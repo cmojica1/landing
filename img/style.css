@@ -1,0 +1,100 @@
+
+/*GOOGLE FONTS*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:wght@500&display=swap');
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: 'Lilita One',sans-serif;
+}
+/*barra de navegacion*/
+/*
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.4 ease;
+}
+nav .sticky{
+  padding: 15px 20px;
+  background: red;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .nav-content{
+height: 100%;
+max-width: 1200px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+ }
+ img imglogo{
+   width: 300px;
+   height: 150px;
+ }
+ nav .logo a{
+   font-weight: 500px;
+   font-size: 35px;
+   color: #AF368D;
+ }
+nav.sticky .logo a{
+  color: #AF368D;
+}
+.nav-content .nav-links{
+  display: flex;
+}
+.nav-content .nav-links li{
+  list-style: none;
+  margin: 0 8px;
+}
+.nav-links li a{
+  text-decoration: none;
+  color: #AF368D;
+  font-size: 18px;
+  font-weight: 500px;
+  padding: 10px 4px;
+  transition: all 0.4 ease;
+}
+.nav-links li a:hover{
+  color: blue;
+}
+/*fin de area de menu de navegacion*/
+/*
+.Nosotros{
+  height: 100vh;
+  width: 100%;
+  background: url('bebe.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Lilita One', sans-serif;
+}
+h2{
+  font-size: 30px;
+  margin-bottom: 6px;
+  color: #AF368D;
+}
+.text{
+  text-align: justify;
+  padding: 40px 80px;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0,5);
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #9142E0;} /* Green */
+ }
